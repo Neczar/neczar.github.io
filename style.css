@@ -306,6 +306,17 @@ nav .navlinks li a{
 
 /*****EDUCATION****************************************************************************************/
 
+.title h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #4169e1;
+    text-align: center;
+    justify-content: center;
+    
+  }
+
 .education .box-container{
     display: flex;
     align-items: center;
