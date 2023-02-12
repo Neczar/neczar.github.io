@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Balagulan Portfolio</title>
+    <link rel="shortcut icon" type="image/x-con" href="birdyyy.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    
+</head>
+<body>
+    <div class="hero-header">
+        <div class="wrapper">
+            <header>
+                <div class="logo">
+                    <i class="fa-solid fa-basketball"></i>
+                    <div class="logo-text">Chlouie</div>
+                </div>
+                <nav>
+                    <div class="togglebtn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="navlinks">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="education.html">Education</a></li>
+                        <li><a href="contact.html">Contacts</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="container">
+                <div class="hero-pic">
+                    <img src="img/schoolboy.jpg" alt="profile pic">
+                </div>
+                <div class="hero-text">
+                    <h1>Hi I'm a  <span class="input"></span></h1>
+                    <h5>NECZAR BALAGULAN</h5>
+                    <p>2nd year BSIT student at University of Science and Technology of Southern Philippines</p>
+
+                    <div class="social">
+                        <a href="https://www.facebook.com/neczar.balagulan/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/neksarrr/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.tiktok.com/@edjttt?_t=8ZnvhPbL44o&_r=1"><i class="fa-brands fa-tiktok"></i></a>
+                        <a href="https://discordapp.com/users/[730765559028777020]"><i class="fa-brands fa-discord"></i></a>
+                        <a href="https://github.com/Neczar"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ <!------------------------------------>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
+    <script>
+        /*--------------------------**/
+        var togglebtn=document.querySelector(".togglebtn");
+        var nav=document.querySelector(".navlinks");
+        var links=document.querySelector(".navlinks li");
+
+        togglebtn.addEventListener("click", function(){
+            this.classList.toggle("click");
+            nav.classList.toggle("open");
+        })
+
+        var typed=new Typed(".input",{
+            strings:["Web Developer","Mapagmahal","Maka-Diyos","Maka-tao","Makakalikasan","Makabansa"],
+            typedSpeed: 100,
+            backSpeed: 80,
+            loop:true,
+        })
+    </script>
+
+</body>
+</html>
